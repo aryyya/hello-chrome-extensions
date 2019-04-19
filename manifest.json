@@ -2,10 +2,13 @@
   "name": "hello-chrome-extension",
   "version": "0.1.0",
   "description": "Hello, world! For learning how to make Chrome extensions.",
-  "manifest_version": 2,
   "permissions": [ "storage" ],
   "background": {
     "scripts": [ "background.js" ],
     "persistent": false
-  }
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
 }
