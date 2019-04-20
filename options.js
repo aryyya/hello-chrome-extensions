@@ -1,9 +1,13 @@
 const page = document.getElementById('button-div')
 
 const buttonColors = [
-  'lightblue',
-  'lightgreen',
-  'pink'
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'blue',
+  'indigo',
+  'violet'
 ]
 
 const constructOptions = buttonColors => {
