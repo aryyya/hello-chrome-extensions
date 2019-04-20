@@ -7,7 +7,9 @@ const buttonColors = [
   'green',
   'blue',
   'indigo',
-  'violet'
+  'violet',
+  'lightblue',
+  'lightgreen',
 ]
 
 const constructOptions = buttonColors => {
