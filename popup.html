@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  .container {
+    width: 250px;
+  }
+  .text {
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+  }
+  .button {
+    flex: 1;
+  }
+  </style>
 </head>
 <body>
-  <button id="change-color">Change Color</button>
+  <div class="container">
+    <p class="text">Choose a background color:</p>
+    <div class="buttons">
+      <button class="button" data-color="Crimson">Red</button>
+      <button class="button" data-color="LightGreen">Green</button>
+      <button class="button" data-color="LightBlue">Blue</button>
+    </div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
